@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header p {
+  position: absolute;
+  width: 138px;
+  height: 25px;
+  top: 40px;
+  left: 77px;
+
+  font-family: 'Inconsolata', monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+
+  color: #333333;
+}
+.container-img {
+  background-image: url("/images/Scarecrow.png");
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  width: 539.22px;
+  height: 447.43px;
+
+  left: 5.35%;
+  right: 57.21%;
+  top: 24.54%;
+  bottom: 34.03%;
+
+}
+.section-info {
+  position: absolute;
+  left: 51.11%;
+  top: 25%;
+  right: 45.08%;
+  bottom: 69.79%;
+}
+.section-title {
+  width: 586px;
+  height: 190px;
+  margin-bottom: 32px;
+
+  font-family: 'Space Mono', monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  color: #333333;
+}
+.section-text {
+  width: 381px;
+  height: 108px;
+  margin-bottom: 48px;
+
+  font-family: 'Space Mono', monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+}
+.section-btn {
+  width: 216px;
+  height: 68px;
+  
+  background-color:  #333333;
+
+  font-family: 'Space Mono', monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+footer {
+  position: absolute;
+  width: 287px;
+  height: 17px;
+  left: 577px;
+  top: 750px;
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #BDBDBD;
+}
+@media (max-width: 700px) {
+  header p {
+    top: 20px;
+    left: 24px;
+  }
+  .container-img {
+    left: 10%;
+    right: 12%;
+    top: 12%;
+    bottom: 63.44%;
+
+    width: 280px;
+    height: 238px;
+  }
+  .section-info{
+    left: 4.8%;
+    right: 80.59%;
+    top: 45.68%;
+    bottom: 42.11%;
+  }
+  .section-title {
+    width: 370px;
+    height: 142px;
+    left: 24px;
+    top: 407px;
+
+    font-size: 48px;
+    line-height: 71px;
+  }
+  .section-text {
+    width: 328px;
+    height: 81px;
+    left: 24px;
+    top: 579px;
+
+    font-size: 18px;
+    line-height: 27px;
+  }
+  footer {
+    left: 42px;
+    top: 808px;
+  }
+}
